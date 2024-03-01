@@ -10,8 +10,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
   QRCaptureController _captureController = QRCaptureController();
-  Animation<Alignment> _animation;
-  AnimationController _animationController;
+  late Animation<Alignment> _animation;
+  late AnimationController _animationController;
 
   bool _isTorchOn = false;
 
@@ -100,13 +100,13 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            FlatButton(
+            TextButton(
               onPressed: () {
                 _captureController.pause();
               },
               child: Text('pause'),
             ),
-            FlatButton(
+            TextButton(
               onPressed: () {
                 if (_isTorchOn) {
                   _captureController.torchMode = CaptureTorchMode.off;
@@ -117,7 +117,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
               },
               child: Text('torch'),
             ),
-            FlatButton(
+            TextButton(
               onPressed: () {
                 _captureController.resume();
               },
