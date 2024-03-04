@@ -4,7 +4,6 @@
     <list default="true" id="e8a26d51-ca25-408a-8a63-f49246f7000b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/android/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/qrcode/QRCaptureView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/qrcode/QRCaptureView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/qrcode.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/qrcode.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qrcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode.iml" afterDir="false" />
