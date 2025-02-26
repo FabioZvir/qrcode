@@ -16,7 +16,7 @@ if (localPropertiesFile.exists()) {
 val kotlinVersion = "1.9.22"  // Defina a versão do Kotlin
 
 android {
-    // Defina o namespace correto para a sua biblioteca
+    // Defina o namespace correto
     namespace = "com.example.qrcode"
 
     compileSdk = 34
@@ -24,9 +24,7 @@ android {
     defaultConfig {
         minSdk = 24
         targetSdk = 34  // Definição recomendada do targetSdk
-        // A biblioteca não precisa de versionCode e versionName, mas você pode definir se necessário
-        // versionCode = 1
-        // versionName = "1.0"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures {
@@ -35,17 +33,6 @@ android {
 
     lintOptions {
         disable("InvalidPackage")
-    }
-
-    // Configurações de compatibilidade com Java
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8 // Garantir compatibilidade com Java 1.8
-        targetCompatibility = JavaVersion.VERSION_1_8 // Garantir compatibilidade com Java 1.8
-    }
-
-    // Definir a versão do Kotlin JVM
-    kotlinOptions {
-        jvmTarget = "1.8" // Alinhar o Kotlin com o Java 1.8
     }
 }
 
