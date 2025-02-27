@@ -1,0 +1,651 @@
+{
+  "project_info": {
+    "project_number": "776474247540",
+    "firebase_url": "https://msk-01.firebaseio.com",
+    "project_id": "msk-01",
+    "storage_bucket": "msk-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:cd74a964d8b76658426c21",
+        "android_client_info": {
+          "package_name": "app.msk.msk_developers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:febf87a16c1a98e9426c21",
+        "android_client_info": {
+          "package_name": "aynova.com.br.aynova_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:b6b0cf6b1cd2fd83426c21",
+        "android_client_info": {
+          "package_name": "aynova.com.br.timber_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:37b78d3ab4e6897a426c21",
+        "android_client_info": {
+          "package_name": "br.com.aynova.compras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:1a2410139604486f426c21",
+        "android_client_info": {
+          "package_name": "br.com.aynova.compras2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:96e860da59d771f2426c21",
+        "android_client_info": {
+          "package_name": "br.com.aynova.controle_maquinas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:61e3a8234b866b49426c21",
+        "android_client_info": {
+          "package_name": "br.com.aynova.gestao_florestal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:683fd247d361c375426c21",
+        "android_client_info": {
+          "package_name": "br.com.aynova.timber_cargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:29a33f8f6142abd4",
+        "android_client_info": {
+          "package_name": "br.com.msk.app.compras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-h5as8en92352j2jfsoe6d2r4j591kgab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.app.compras",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:2393347631bf3f11",
+        "android_client_info": {
+          "package_name": "br.com.msk.app.florestal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-md1hi9s677gdrg5h40mjdh5n7bs9ebj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.app.florestal",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:60236653a6d4e2b7",
+        "android_client_info": {
+          "package_name": "br.com.msk.app.frotas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-em3c65rmu60gntuv2ppedeh7sj1qvb80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.app.frotas",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:9ba80e9281813379",
+        "android_client_info": {
+          "package_name": "br.com.msk.app.segurancadotrabalho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-b54cjs33ghdlo8la6k94278pqb1899k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.app.segurancadotrabalho",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:f3e9ed48248840d1426c21",
+        "android_client_info": {
+          "package_name": "br.com.msk.msk_ceo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:527a7dd8b7234b5d426c21",
+        "android_client_info": {
+          "package_name": "br.com.msk.timber_track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:a0fa7c240ef1393e",
+        "android_client_info": {
+          "package_name": "br.com.msk.timbertrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-6o2rm7fs7iagfmqmtan2r7ubhte778g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.timbertrack",
+            "certificate_hash": "b0801eef48e07cd5d12b1f4fac122139719c052b"
+          }
+        },
+        {
+          "client_id": "776474247540-hd5hckpflat9cvpus37umh9mhdonac1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.timbertrack",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-vp4724h13vm8kr7ookh3p4i4atjl0c1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.msk.timbertrack",
+            "certificate_hash": "6efb786feef2864d543e0f3530606514ef5bf9d6"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776474247540:android:d7af45c447a80d2b",
+        "android_client_info": {
+          "package_name": "br.com.rd.diretoriamsk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776474247540-020jnpgq80kpbsrs4t19dbrhbq0kemok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rd.diretoriamsk",
+            "certificate_hash": "60317546eff9ec4f02f337d83bef1b0dfe285c7a"
+          }
+        },
+        {
+          "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsDbRWASktjU3WpXhAe-2oWcyluYTDbq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776474247540-gbl1phj7m68mkhrfoacvs4j03ipckbko.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "776474247540-0o4cglvn21l9i0367kc1assu8gd40as5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.aynova.compras"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
