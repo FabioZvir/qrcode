@@ -11,7 +11,7 @@ android {
         targetSdk = 33
     }
 
-    namespace = "com.seu.pacote.msk"
+    namespace = "com.example.qrcode"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -21,15 +21,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(8)
-        }
-    }
 }
 
 dependencies {
-    implementation 'com.android.tools:desugar_jdk_libs:1.1.5' // Necessário para o desugaring
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
+    implementation("com.google.zxing:core:3.5.1") // Biblioteca ZXing para leitura de QR Code
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0") // Biblioteca para integrar ZXing com Android
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20") // Kotlin Standard Library
 }

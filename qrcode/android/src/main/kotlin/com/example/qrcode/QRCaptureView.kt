@@ -12,18 +12,19 @@ import com.google.zxing.ResultPoint
 import com.journeyapps.barcodescanner.BarcodeCallback
 import com.journeyapps.barcodescanner.BarcodeResult
 import com.journeyapps.barcodescanner.BarcodeView
-import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.platform.PlatformView
 
-class QRCaptureView(private val context: Context, id: Int, binding: FlutterPlugin.FlutterPluginBinding) :
-    PlatformView, MethodCallHandler {
+class QRCaptureView(
+    private val context: Context,
+    id: Int,
+    private val channel: MethodChannel
+) : PlatformView, MethodCallHandler {
 
     private var barcodeView: BarcodeView? = null
     private val activity = context as Activity
-    private val channel: MethodChannel = MethodChannel(binding.binaryMessenger, "plugins/qr_capture/method_$id")
 
     init {
         channel.setMethodCallHandler(this)
@@ -34,22 +35,32 @@ class QRCaptureView(private val context: Context, id: Int, binding: FlutterPlugi
             override fun barcodeResult(result: BarcodeResult) {
                 channel.invokeMethod("onCaptured", result.text)
             }
-            override fun possibleResultPoints(resultPoints: List<ResultPoint>) {}
+
+            override fun possibleResultPoints(resultPoints: List<ResultPoint>) {
+                // Implemente a lógica para lidar com os pontos de resultado, se necessário
+            }
         })
         barcodeView?.resume()
 
+        // Registrar callbacks do ciclo de vida da atividade
         activity.application.registerActivityLifecycleCallbacks(object : Application.ActivityLifecycleCallbacks {
-            override fun onActivityPaused(p0: Activity) {
-                if (p0 == activity) barcodeView?.pause()
+            override fun onActivityPaused(activity: Activity) {
+                if (activity == this@QRCaptureView.activity) {
+                    barcodeView?.pause()
+                }
             }
-            override fun onActivityResumed(p0: Activity) {
-                if (p0 == activity) barcodeView?.resume()
+
+            override fun onActivityResumed(activity: Activity) {
+                if (activity == this@QRCaptureView.activity) {
+                    barcodeView?.resume()
+                }
             }
-            override fun onActivityStarted(p0: Activity) {}
-            override fun onActivityDestroyed(p0: Activity) {}
-            override fun onActivitySaveInstanceState(p0: Activity, p1: Bundle) {}
-            override fun onActivityStopped(p0: Activity) {}
-            override fun onActivityCreated(p0: Activity, p1: Bundle) {}
+
+            override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {}
+            override fun onActivityStarted(activity: Activity) {}
+            override fun onActivityStopped(activity: Activity) {}
+            override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {}
+            override fun onActivityDestroyed(activity: Activity) {}
         })
     }
 
@@ -70,6 +81,7 @@ class QRCaptureView(private val context: Context, id: Int, binding: FlutterPlugi
             "setTorchMode" -> {
                 val isOn = call.arguments as Boolean
                 barcodeView?.setTorch(isOn)
+                result.success(null)
             }
             else -> result.notImplemented()
         }
@@ -81,6 +93,8 @@ class QRCaptureView(private val context: Context, id: Int, binding: FlutterPlugi
         } else {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 activity.requestPermissions(arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST_ID)
+            } else {
+                result?.success(false)
             }
         }
     }
