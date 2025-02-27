@@ -1,8 +1,8 @@
 import java.util.Properties
 
 plugins {
-    id("com.android.library")
-    id("kotlin-android")
+    id("com.android.library") version "8.2.2"
+    id("org.jetbrains.kotlin.android") version "1.9.22"
 }
 
 val localProperties = Properties()
@@ -13,45 +13,38 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-val kotlinVersion = "1.9.22"  // Defina a versão do Kotlin
-
 android {
-    // Defina o namespace correto para a sua biblioteca
     namespace = "com.example.qrcode"
-
     compileSdk = 34
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 34  // Definição recomendada do targetSdk
-        // A biblioteca não precisa de versionCode e versionName, mas você pode definir se necessário
-        // versionCode = 1
-        // versionName = "1.0"
+        targetSdk = 34
     }
 
     buildFeatures {
-        buildConfig = true  // Habilitando a geração de BuildConfig
+        buildConfig = true
     }
 
-    lintOptions {
-        disable("InvalidPackage")
+    lint {
+        disable += "InvalidPackage"
     }
 
-    // Configurações de compatibilidade com Java
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8 // Garantir compatibilidade com Java 1.8
-        targetCompatibility = JavaVersion.VERSION_1_8 // Garantir compatibilidade com Java 1.8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
-    // Definir a versão do Kotlin JVM
     kotlinOptions {
-        jvmTarget = "1.8" // Alinhar o Kotlin com o Java 1.8
+        jvmTarget = "1.8"
     }
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
-    testImplementation("junit:junit:4.12")
-    androidTestImplementation("androidx.test:runner:1.1.1")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.1.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
+    implementation("com.google.zxing:core:3.5.1") // ZXing para leitura de QR Code
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0") // Biblioteca para QR Code
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test:runner:1.5.2")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
