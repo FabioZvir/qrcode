@@ -1,26 +1,17 @@
 plugins {
-    id("com.android.library") 
-    id("org.jetbrains.kotlin.android") 
-}
-
-repositories {
-    google() // Repositório do Google para plugins Android
-    mavenCentral() // Repositório Maven Central
-    gradlePluginPortal() // Repositório do Gradle Plugin Portal
+    id("com.android.library")
+    id("kotlin-android")
 }
 
 android {
-    namespace = "com.example.qrcode"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
-        minSdk = 24
-        targetSdk = 34
+        minSdk = 21
+        targetSdk = 33
     }
 
-    buildFeatures {
-        buildConfig = true
-    }
+    namespace = "com.seu.pacote.msk"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -30,13 +21,15 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(8)
+        }
+    }
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
-    implementation("com.google.zxing:core:3.5.1") // ZXing para leitura de QR Code
-    implementation("com.journeyapps:zxing-android-embedded:4.3.0") // Biblioteca para QR Code
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test:runner:1.5.2")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation 'com.android.tools:desugar_jdk_libs:1.1.5' // Necessário para o desugaring
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
 }
